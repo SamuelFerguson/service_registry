@@ -1,3 +1,9 @@
+from behave import given, when, then, step
+
+@Given(u'an empty service registry)
+def step_impl(context):
+
+
 @when(u'I add a service "test" with version "0.0.1"')
 def step_impl(context):
     raise NotImplementedError(u'STEP: When I add a service "test" with version "0.0.1"')
